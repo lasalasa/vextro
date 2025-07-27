@@ -1,21 +1,41 @@
 {
   "name": "vextro",
-  "version": "1.0.0",
-  "description": "Scaffold a modern Vite + Vue + Tailwind Chrome Extension (Manifest V3)",
+  "version": "0.0.1",
+  "description": "Scaffold modern Chrome extensions with Vite + React + Tailwind",
   "bin": {
     "vextro": "bin/cli.js"
   },
   "type": "module",
-  "keywords": [
-    "chrome-extension",
-    "vite",
-    "vue",
-    "tailwind",
-    "manifest-v3"
+  "files": [
+    "bin",
+    "extension-structure/"
   ],
+  "keywords": [
+    "vite",
+    "chrome-extension",
+    "vite-plugin",
+    "react",
+    "tailwind",
+    "crxjs",
+    "manifest-v3",
+    "scaffold"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lasalasa/vextro"
+  },
+  "author": "Lasantha <lasanthaslakmal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lasalasa/vextro/issues"
+  },
+  "homepage": "https://github.com/lasalasa/vextro#readme",
   "dependencies": {
     "chalk": "^5.3.0",
     "fs-extra": "^11.2.0",
     "inquirer": "^9.2.8"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }

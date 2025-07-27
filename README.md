@@ -71,4 +71,4 @@ my-extension/
 
 ## 📄 License
 
-MIT © \[Your Name or Company]
+MIT © \[Lasantha]
