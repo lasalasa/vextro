@@ -1,6 +1,6 @@
 {
   "name": "create-vextro",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Scaffold modern Chrome extensions with Vite + React + Tailwind",
   "bin": {
     "create-vextro": "bin/cli.js"
