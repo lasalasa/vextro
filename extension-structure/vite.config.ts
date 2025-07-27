@@ -1,15 +1,16 @@
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { crx } from '@crxjs/vite-plugin';
 import manifest from './src/manifest';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [react(), crx({ manifest })],
+  plugins: [
+    react(), 
+    crx({ manifest }),
+    tailwindcss()
+  ],
   build: {
     outDir: 'dist',
     rollupOptions: {

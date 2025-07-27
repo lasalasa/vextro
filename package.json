@@ -1,9 +1,9 @@
 {
-  "name": "create-extensify",
+  "name": "vextro",
   "version": "1.0.0",
   "description": "Scaffold a modern Vite + Vue + Tailwind Chrome Extension (Manifest V3)",
   "bin": {
-    "create-extensify": "bin/cli.js"
+    "vextro": "bin/cli.js"
   },
   "type": "module",
   "keywords": [
